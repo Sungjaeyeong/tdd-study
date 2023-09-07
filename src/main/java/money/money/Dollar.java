@@ -1,7 +1,7 @@
 package money.money;
 
 public class Dollar {
-    int amount;
+    private final int amount;
 
     public Dollar(int amount) {
         this.amount = amount;
