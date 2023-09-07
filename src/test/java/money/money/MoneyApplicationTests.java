@@ -16,4 +16,9 @@ class MoneyApplicationTests {
         assertThat(15).isEqualTo(product.amount);
     }
 
+    @Test
+    void testEquality() {
+        assertThat(new Dollar(5)).isEqualTo(new Dollar(5));
+    }
+
 }
