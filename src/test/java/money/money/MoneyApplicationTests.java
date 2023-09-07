@@ -22,7 +22,7 @@ class MoneyApplicationTests {
 
     @Test
     void testFrancMultiplication() {
-        Dollar five = new Franc(5);
+        Franc five = new Franc(5);
         assertThat(new Franc(10)).isEqualTo(five.times(2));
         assertThat(new Franc(15)).isEqualTo(five.times(3));
     }
