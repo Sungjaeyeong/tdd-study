@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.*;
 class MoneyApplicationTests {
     @Test
     void testMultiplication() {
-        Dollar five = new Dollar(5);
+        Dollar five = Money.dollar(5);
         assertThat(new Dollar(10)).isEqualTo(five.times(2));
         assertThat(new Dollar(15)).isEqualTo(five.times(3));
     }
