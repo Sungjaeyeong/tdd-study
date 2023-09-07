@@ -7,5 +7,10 @@ import static org.assertj.core.api.Assertions.*;
 
 @SpringBootTest
 class MoneyApplicationTests {
-
+    @Test
+    void testMultiplication() {
+        Dollar five = new Dollar(5);
+        five.times(2);
+        assertThat(10).isEqualTo(five.amount);
+    }
 }
