@@ -18,16 +18,16 @@ class MoneyApplicationTests {
     void testEquality() {
         assertThat(Money.dollar(5)).isEqualTo(Money.dollar(5));
         assertThat(Money.dollar(5)).isNotEqualTo(Money.dollar(6));
-        assertThat(new Franc(5)).isEqualTo(new Franc(5));
-        assertThat(new Franc(5)).isNotEqualTo(new Franc(6));
-        assertThat(new Franc(5)).isNotEqualTo(Money.dollar(5));
+        assertThat(Money.franc(5)).isEqualTo(Money.franc(5));
+        assertThat(Money.franc(5)).isNotEqualTo(Money.franc(6));
+        assertThat(Money.franc(5)).isNotEqualTo(Money.dollar(5));
     }
 
     @Test
     void testFrancMultiplication() {
-        Franc five = new Franc(5);
-        assertThat(new Franc(10)).isEqualTo(five.times(2));
-        assertThat(new Franc(15)).isEqualTo(five.times(3));
+        Money five = Money.franc(5);
+        assertThat(Money.franc(10)).isEqualTo(five.times(2));
+        assertThat(Money.franc(15)).isEqualTo(five.times(3));
     }
 
 }
