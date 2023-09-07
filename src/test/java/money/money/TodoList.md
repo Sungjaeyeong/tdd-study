@@ -8,6 +8,10 @@ amount를 private으로 만들기
 
 Money 반올림?
 
-equals() << now
+~~equals()~~
 
 hashCode()
+
+Equal null
+
+Equal object
