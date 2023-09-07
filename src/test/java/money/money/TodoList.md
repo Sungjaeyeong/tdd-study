@@ -15,3 +15,5 @@ hashCode()
 Equal null
 
 Equal object
+
+5CHF * 2 = 10CHF << now
