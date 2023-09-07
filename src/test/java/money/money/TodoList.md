@@ -20,6 +20,8 @@ Equal object
 
 Dollar/Franc 중복
 
-공용 equals << now
+~~공용 equals~~
 
 공용 times
+
+Franc과 Dollar 비교하기
