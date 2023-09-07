@@ -12,5 +12,8 @@ class MoneyApplicationTests {
         Dollar five = new Dollar(5);
         five.times(2);
         assertThat(10).isEqualTo(five.amount);
+        five.times(3);
+        assertThat(15).isEqualTo(five.amount);
     }
+
 }
