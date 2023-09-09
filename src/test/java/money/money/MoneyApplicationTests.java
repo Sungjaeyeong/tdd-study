@@ -1,5 +1,6 @@
 package money.money;
 
+import com.jayway.jsonpath.internal.function.numeric.Sum;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -36,4 +37,12 @@ class MoneyApplicationTests {
         assertThat(Money.dollar(10)).isEqualTo(reduced);
     }
 
+    @Test
+    void testPlusReturnsSum() {
+        Money five = Money.dollar(5);
+        Expression result = five.plus(five);
+        Sum sum = (Sum) result;
+        assertThat(five).isEqualTo(sum.augend);
+        assertThat(five).isEqualTo(sum.addend);
+    }
 }

@@ -31,3 +31,5 @@ Equal object
 ~~testFrancMultiplication을 지워야 할까?~~
 
 $5 + $5 = $10 << now
+
+$5 + $5ㅇptj Money 반환하기
