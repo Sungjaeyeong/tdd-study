@@ -1,6 +1,5 @@
 package money.money;
 
-import com.jayway.jsonpath.internal.function.numeric.Sum;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
