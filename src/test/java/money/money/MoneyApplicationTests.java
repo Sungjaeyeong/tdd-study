@@ -22,13 +22,6 @@ class MoneyApplicationTests {
     }
 
     @Test
-    void testFrancMultiplication() {
-        Money five = Money.franc(5);
-        assertThat(Money.franc(10)).isEqualTo(five.times(2));
-        assertThat(Money.franc(15)).isEqualTo(five.times(3));
-    }
-
-    @Test
     void testCurrency() {
         assertThat("USD").isEqualTo(Money.dollar(1).currency());
         assertThat("CHF").isEqualTo(Money.franc(1).currency());
