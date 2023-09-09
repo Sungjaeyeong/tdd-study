@@ -29,8 +29,8 @@ class MoneyApplicationTests {
 
     @Test
     void testSimpleAddition() {
-        Money sum = Money.dollar(5).plus(Money.dollar(5));
-        assertThat(Money.dollar(10)).isEqualTo(sum);
+        ...
+        assertThat(Money.dollar(10)).isEqualTo(reduced);
     }
 
 }
