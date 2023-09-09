@@ -29,3 +29,5 @@ Equal object
 ~~통화?~~
 
 ~~testFrancMultiplication을 지워야 할까?~~
+
+$5 + $5 = $10 << now
