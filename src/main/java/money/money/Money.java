@@ -3,6 +3,8 @@ package money.money;
 public abstract class Money {
     protected int amount;
 
+    abstract String currency();
+
     static Money dollar(int amount) {
         return new Dollar(amount);
     }
