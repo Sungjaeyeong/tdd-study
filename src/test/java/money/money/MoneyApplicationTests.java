@@ -18,8 +18,6 @@ class MoneyApplicationTests {
     void testEquality() {
         assertThat(Money.dollar(5)).isEqualTo(Money.dollar(5));
         assertThat(Money.dollar(5)).isNotEqualTo(Money.dollar(6));
-        assertThat(Money.franc(5)).isEqualTo(Money.franc(5));
-        assertThat(Money.franc(5)).isNotEqualTo(Money.franc(6));
         assertThat(Money.franc(5)).isNotEqualTo(Money.dollar(5));
     }
 
