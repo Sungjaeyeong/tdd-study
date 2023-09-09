@@ -30,4 +30,12 @@ public class Money {
         return amount == money.amount
                 && getClass().equals(object.getClass());
     }
+
+    @Override
+    public String toString() {
+        return "Money{" +
+                "amount=" + amount +
+                ", currency='" + currency + '\'' +
+                '}';
+    }
 }
