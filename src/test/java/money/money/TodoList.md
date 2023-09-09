@@ -32,4 +32,10 @@ Equal object
 
 $5 + $5 = $10 << now
 
-$5 + $5ㅇptj Money 반환하기
+$5 + $5에서 Money 반환하기
+
+~~Bank.reduce(Money)~~
+
+Money에 대한 통화 변환을 수행하는 Reduce
+
+Reduce(Bank, String)
