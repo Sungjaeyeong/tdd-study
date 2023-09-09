@@ -26,6 +26,6 @@ Dollar/Franc 중복
 
 ~~Franc과 Dollar 비교하기~~
 
-통화? << now
+~~통화?~~
 
 testFrancMultiplication을 지워야 할까?
