@@ -39,3 +39,7 @@ $5 + $5에서 Money 반환하기
 ~~Money에 대한 통화 변환을 수행하는 Reduce~~
 
 ~~Reduce(Bank, String)~~
+
+Sum.plus
+
+Expression.times
