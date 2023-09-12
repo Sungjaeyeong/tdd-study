@@ -30,12 +30,12 @@ Equal object
 
 ~~testFrancMultiplication을 지워야 할까?~~
 
-$5 + $5 = $10
+~~$5 + $5 = $10~~
 
 $5 + $5에서 Money 반환하기
 
 ~~Bank.reduce(Money)~~
 
-Money에 대한 통화 변환을 수행하는 Reduce << now
+~~Money에 대한 통화 변환을 수행하는 Reduce~~
 
-Reduce(Bank, String)
+~~Reduce(Bank, String)~~
