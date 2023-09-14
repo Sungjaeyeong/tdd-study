@@ -32,7 +32,7 @@ Equal object
 
 ~~$5 + $5 = $10~~
 
-$5 + $5에서 Money 반환하기
+$5 + $5에서 Money 반환하기 << now
 
 ~~Bank.reduce(Money)~~
 
@@ -42,4 +42,4 @@ $5 + $5에서 Money 반환하기
 
 ~~Sum.plus~~
 
-Expression.times << now
+~~Expression.times~~
