@@ -40,6 +40,6 @@ $5 + $5에서 Money 반환하기
 
 ~~Reduce(Bank, String)~~
 
-Sum.plus << now
+~~Sum.plus~~
 
 Expression.times
